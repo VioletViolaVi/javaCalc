@@ -11,9 +11,9 @@ public class CalcMain {
         while (!userLetterChoice.equalsIgnoreCase("x")) {
             if(userLetterChoice.equalsIgnoreCase("a") || userLetterChoice.equalsIgnoreCase("s") || userLetterChoice.equalsIgnoreCase("m") || userLetterChoice.equalsIgnoreCase("d")) {
                 System.out.println("Enter your 1st number: ");
-                int first = scanner.nextInt();
+                double first = scanner.nextDouble();
                 System.out.println("Enter your 2nd number: ");
-                int second = scanner.nextInt();
+                double second = scanner.nextDouble();
                 if (userLetterChoice.equalsIgnoreCase("a")) {
                     System.out.println(calc.addNumbers(first, second));
                 } else if (userLetterChoice.equalsIgnoreCase("s")) {
