@@ -30,6 +30,5 @@ public class CalcMain {
             userLetterChoice = scanner.next();
         }
         System.out.println("Thanks & Goodbye!");
-
     }
 }
